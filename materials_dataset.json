@@ -1,0 +1,337 @@
+{
+  "metadata": {
+    "description": "Cemented carbide materials dataset with hardness and fracture toughness data",
+    "fields": {
+      "wt_TiC": "Weight percent of TiC [wt%]",
+      "wt_NbC": "Weight percent of NbC [wt%] (Nb present as NbC)",
+      "wt_Ni": "Weight percent of Ni binder [wt%]",
+      "wt_Fe": "Weight percent of Fe [wt%]",
+      "density_gcc": "Measured density [g/cm³]",
+      "relative_density_pct": "Relative density [%]",
+      "hardness_HV": "Vickers hardness [HV]",
+      "hardness_HV_std": "Standard deviation of hardness [HV]",
+      "hardness_load_kgf": "Load used for Vickers hardness measurement [kgf]",
+      "KIC": "Fracture toughness [MPa·m^0.5]",
+      "KIC_std": "Standard deviation of fracture toughness [MPa·m^0.5]"
+    }
+  },
+  "materials": [
+    {
+      "id": "NbC-12Ni_DaCostaMorais",
+      "label": "NbC-12%Ni",
+      "composition": {
+        "wt_TiC": 0,
+        "wt_NbC": 88,
+        "wt_Ni": 12,
+        "wt_Fe": 0
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1032.9,
+        "hardness_HV_std": 11.6,
+        "hardness_load_kgf": 30,
+        "KIC": 8.9,
+        "KIC_std": 0.5
+      },
+      "source": {
+        "doi": "10.1016/j.ijrmhm.2022.105826",
+        "year": 2022,
+        "author": "Da Costa Morais"
+      }
+    },
+    {
+      "id": "1TiC-NbC-12Ni_DaCostaMorais",
+      "label": "1%TiC-NbC-12%Ni",
+      "composition": {
+        "wt_TiC": 1,
+        "wt_NbC": 87,
+        "wt_Ni": 12,
+        "wt_Fe": 0
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1089.6,
+        "hardness_HV_std": 25.6,
+        "hardness_load_kgf": 30,
+        "KIC": 8.3,
+        "KIC_std": 0.5
+      },
+      "source": {
+        "doi": "10.1016/j.ijrmhm.2022.105826",
+        "year": 2022,
+        "author": "Da Costa Morais"
+      }
+    },
+    {
+      "id": "7TiC-NbC-12Ni_DaCostaMorais",
+      "label": "7%TiC-NbC-12%Ni",
+      "composition": {
+        "wt_TiC": 7,
+        "wt_NbC": 81,
+        "wt_Ni": 12,
+        "wt_Fe": 0
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1148.6,
+        "hardness_HV_std": 28.0,
+        "hardness_load_kgf": 30,
+        "KIC": 10.2,
+        "KIC_std": 0.4
+      },
+      "source": {
+        "doi": "10.1016/j.ijrmhm.2022.105826",
+        "year": 2022,
+        "author": "Da Costa Morais"
+      }
+    },
+    {
+      "id": "10TiC-NbC-12Ni_Rabothata",
+      "label": "NbC-10TiC-12%Ni",
+      "composition": {
+        "wt_TiC": 10,
+        "wt_NbC": 78,
+        "wt_Ni": 12,
+        "wt_Fe": 0
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1154,
+        "hardness_HV_std": 0.28,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": null,
+        "year": null,
+        "author": "Rabothata"
+      }
+    },
+    {
+      "id": "NbC-12Ni_Rabothata",
+      "label": "NbC-12%Ni",
+      "composition": {
+        "wt_TiC": 0,
+        "wt_NbC": 88,
+        "wt_Ni": 12,
+        "wt_Fe": 0
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1173,
+        "hardness_HV_std": null,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": null,
+        "year": null,
+        "author": "Rabothata"
+      }
+    },
+    {
+      "id": "TiC-16Fe_Conze",
+      "label": "TiC-16%Fe",
+      "composition": {
+        "wt_TiC": 84,
+        "wt_NbC": 0,
+        "wt_Ni": 0,
+        "wt_Fe": 16
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1439,
+        "hardness_HV_std": null,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": null,
+        "year": null,
+        "author": "Conze"
+      }
+    },
+    {
+      "id": "NbC-16Ni_Conze",
+      "label": "NbC-16%Ni",
+      "composition": {
+        "wt_TiC": 0,
+        "wt_NbC": 84,
+        "wt_Ni": 16,
+        "wt_Fe": 0
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1173,
+        "hardness_HV_std": null,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": null,
+        "year": null,
+        "author": "Conze"
+      }
+    },
+    {
+      "id": "NbC-12volNi_Huang2016",
+      "label": "NbC-12vol%Ni",
+      "composition": {
+        "wt_TiC": 0,
+        "wt_NbC": 86.5,
+        "wt_Ni": 13.5,
+        "wt_Fe": 0,
+        "composition_note": "Converted from vol% using rho_NbC=7.78, rho_Ni=8.908 g/cm³"
+      },
+      "properties": {
+        "density_gcc": 7.90,
+        "relative_density_pct": 99.4,
+        "hardness_HV": 1222,
+        "hardness_HV_std": 15,
+        "hardness_load_kgf": 10,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": null,
+        "year": 2016,
+        "author": "Huang",
+        "full_ref": "Huang, S. G., et al. Microstructure and mechanical properties of NbC matrix cermets using Ni containing metal binder. Metal Powder Report 71.5 (2016): 349-355."
+      }
+    },
+    {
+      "id": "NbC-12volFe_Huang2016",
+      "label": "NbC-12vol%Fe",
+      "composition": {
+        "wt_TiC": 0,
+        "wt_NbC": 87.9,
+        "wt_Ni": 0,
+        "wt_Fe": 12.1,
+        "composition_note": "Converted from vol% using rho_NbC=7.78, rho_Fe=7.874 g/cm³"
+      },
+      "properties": {
+        "density_gcc": 7.75,
+        "relative_density_pct": 99.3,
+        "hardness_HV": 1293,
+        "hardness_HV_std": 27,
+        "hardness_load_kgf": 10,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": null,
+        "year": 2016,
+        "author": "Huang",
+        "full_ref": "Huang, S. G., et al. Microstructure and mechanical properties of NbC matrix cermets using Ni containing metal binder. Metal Powder Report 71.5 (2016): 349-355."
+      }
+    }
+  ,
+    {
+      "id": "90TiC-10Fe_Kobernik2023",
+      "label": "90TiC-10%Fe",
+      "composition": {
+        "wt_TiC": 90,
+        "wt_NbC": 0,
+        "wt_Ni": 0,
+        "wt_Fe": 10
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1000,
+        "hardness_HV_std": null,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": "10.1134/S0036029523060216",
+        "year": 2023,
+        "author": "Kobernik"
+      }
+    },
+    {
+      "id": "80TiC-20Fe_Kobernik2023",
+      "label": "80TiC-20%Fe",
+      "composition": {
+        "wt_TiC": 80,
+        "wt_NbC": 0,
+        "wt_Ni": 0,
+        "wt_Fe": 20
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1200,
+        "hardness_HV_std": null,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": "10.1134/S0036029523060216",
+        "year": 2023,
+        "author": "Kobernik"
+      }
+    },
+    {
+      "id": "50TiC-25NbC-25Fe_Kobernik2023",
+      "label": "50TiC-25NbC-25%Fe",
+      "composition": {
+        "wt_TiC": 50,
+        "wt_NbC": 25,
+        "wt_Ni": 0,
+        "wt_Fe": 25
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1400,
+        "hardness_HV_std": null,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": "10.1134/S0036029523060216",
+        "year": 2023,
+        "author": "Kobernik"
+      }
+    },
+    {
+      "id": "45TiC-30NbC-25Fe_Kobernik2023",
+      "label": "45TiC-30NbC-25%Fe",
+      "composition": {
+        "wt_TiC": 45,
+        "wt_NbC": 30,
+        "wt_Ni": 0,
+        "wt_Fe": 25
+      },
+      "properties": {
+        "density_gcc": null,
+        "relative_density_pct": null,
+        "hardness_HV": 1100,
+        "hardness_HV_std": null,
+        "hardness_load_kgf": null,
+        "KIC": null,
+        "KIC_std": null
+      },
+      "source": {
+        "doi": "10.1134/S0036029523060216",
+        "year": 2023,
+        "author": "Kobernik"
+      }
+    }
+  ]
+}
